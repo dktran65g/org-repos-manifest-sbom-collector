@@ -34,10 +34,11 @@ jobs:
           # --- Define your Org Repositories to be collected.   ---#
           # -------------------------------------------------------#
           REPOS=(
-            "dktran65g/go-dvwa-gh"
+            "dktran65g/kotlin-threats-hw-maven-gh"
             "dktran65g/rust-threats-hw-gh"
             "dktran65g/java-hw-gradlelockfile-gh"
             "dktran65g/ruby-threats-hw-gemfile-gh"
+            "dktran65g/java-WebGoat-gh"
           )
           
           for repo in "${REPOS[@]}"; do
